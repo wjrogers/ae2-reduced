@@ -14,7 +14,7 @@ shapeless=
 	ae2:ItemMaterial.Cell64kPart ae2:ItemMaterial.EmptyStorageCell -> ae2:ItemBasicStorageCell.64k
 
 shapeless=
-	certusCrystal ae2:ItemMaterial.EmptyStorageCell -> ae2:ItemViewCell
+	netherCrystal ae2:ItemMaterial.EmptyStorageCell -> ae2:ItemViewCell
 
 # Spatial Assembly
 
@@ -83,7 +83,7 @@ shaped=
 
 shaped=
 	ae2:BlockQuartzGlass mc:redstone ae2:BlockQuartzGlass,
-	mc:redstone certusCrystal mc:redstone,
+	mc:redstone netherCrystal mc:redstone,
 	mc:iron_ingot mc:iron_ingot mc:iron_ingot
 	-> ae2:ItemViewCell
 
@@ -109,9 +109,9 @@ shaped=
 
 # Cell Parts
 shaped=
-	mc:redstone certusCrystal mc:redstone,
-	certusCrystal ae2:ItemMaterial.LogicProcessor certusCrystal,
-	mc:redstone certusCrystal mc:redstone
+	mc:redstone netherCrystal mc:redstone,
+	netherCrystal ae2:ItemMaterial.LogicProcessor netherCrystal,
+	mc:redstone netherCrystal mc:redstone
 	-> ae2:ItemMaterial.Cell1kPart
 
 shaped=

@@ -9,28 +9,18 @@ alias=ae2 -> appliedenergistics2
 # dyeBlack, dyeRed, dyeGreen, dyeBrown, dyeBlue, dyePurple, dyeCyan, dyeLightGray, dyeGray, dyePink, dyeLime, dyeYellow, dyeLightBlue, dyeMagenta, dyeOrange, dyeWhite
 
 # AE2 Ore Dictionary
-ore=ae2:ItemMaterial.CertusQuartzCrystal -> crystalCertusQuartz
-ore=ae2:ItemMaterial.FluixCrystal -> crystalFluix
-ore=ae2:ItemMaterial.PurifiedFluixCrystal -> crystalPureFluix
 ore=mc:quartz -> crystalNetherQuartz
 ore=mc:wool:* -> blockWool
 ore=mc:stained_hardened_clay:* -> blockStainedHardenedClay
 ore=ae2:ItemMaterial.NetherQuartzDust -> dustNetherQuartz
-ore=ae2:ItemMaterial.CertusQuartzDust -> dustCertusQuartz
-ore=ae2:ItemMaterial.FluixDust -> dustFluix
 
 group= mc:iron_ingot oredictionary:ingotCopper oredictionary:ingotTin oredictionary:ingotSilver oredictionary:ingotLead oredictionary:ingotBronze oredictionary:ingotBrass oredictionary:ingotNickel oredictionary:ingotInvar oredictionary:ingotAluminium -> metalIngots
-group= oredictionary:dustEnder oredictionary:dustEnderPearl -> dustEnder
 
 group=oredictionary:blockGlass oredictionary:glass mc:glass -> glass
 group=oredictionary:wool  mc:wool:* -> wool
 
-group=oredictionary:crystalCertusQuartz oredictionary:crystalNetherQuartz ae2:ItemMaterial.CertusQuartzCrystalCharged -> crystalQuartz
-group=oredictionary:dustCertusQuartz oredictionary:dustNetherQuartz -> dustQuartz
-
-group=oredictionary:crystalCertusQuartz ae2:ItemMaterial.CertusQuartzCrystalCharged ae2:ItemMaterial.PurifiedCertusQuartzCrystal -> certusCrystal
-group=oredictionary:crystalNetherQuartz ae2:ItemMaterial.PurifiedNetherQuartzCrystal -> netherCrystal
-group=oredictionary:crystalFluix ae2:ItemMaterial.PurifiedFluixCrystal -> fluixCrystal
+group=oredictionary:dustNetherQuartz -> dustQuartz
+group=oredictionary:crystalNetherQuartz -> netherCrystal
 
 # Crash on Issues
 crash=false

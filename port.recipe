@@ -8,7 +8,7 @@ shaped=
 
 # Glass Cable
 shapeless=
-	ae2:ItemPart.QuartzFiber fluixCrystal fluixCrystal
+	ae2:ItemPart.QuartzFiber netherCrystal netherCrystal
 	-> 4 ae2:CableGlass.Fluix
 
 # Covered Cable
@@ -48,19 +48,19 @@ shapeless=
 # Planes
 
 shaped=
-	fluixCrystal fluixCrystal fluixCrystal,
+	netherCrystal netherCrystal netherCrystal,
 	mc:iron_ingot ae2:ItemMaterial.FormationCore mc:iron_ingot
 	-> ae2:ItemPart.FormationPlane
 
 shaped=
-	fluixCrystal fluixCrystal fluixCrystal,
+	netherCrystal netherCrystal netherCrystal,
 	mc:iron_ingot ae2:ItemMaterial.AnnihilationCore mc:iron_ingot
 	-> ae2:ItemPart.AnnihilationPlane
 
 shaped=
 	glass	ae2:ItemPart.Terminal	glass,
 	cable						_								cable,
-	mc:iron_ingot			fluixCrystal				mc:iron_ingot,
+	mc:iron_ingot			netherCrystal				mc:iron_ingot,
 	-> ae2:BlockChest
 
 # Storage
@@ -74,14 +74,14 @@ shaped=
 # Misc
 shaped=
 	mc:iron_ingot glass mc:iron_ingot,
-	glass oredictionary:dustFluix glass,
+	glass dustQuartz glass,
 	mc:iron_ingot glass mc:iron_ingot
 	-> ae2:BlockCondenser
 
 shaped=
-	ae2:BlockSkyStone:1 ae2:ItemMaterial.PurifiedFluixCrystal ae2:BlockSkyStone:1,
-	ae2:ItemMaterial.PurifiedFluixCrystal ae2:ItemMaterial.EngProcessor ae2:ItemMaterial.PurifiedFluixCrystal,
-	ae2:BlockSkyStone:1 ae2:ItemMaterial.PurifiedFluixCrystal ae2:BlockSkyStone:1
+	ae2:BlockSkyStone:1 netherCrystal ae2:BlockSkyStone:1,
+	netherCrystal ae2:ItemMaterial.EngProcessor netherCrystal,
+	ae2:BlockSkyStone:1 netherCrystal ae2:BlockSkyStone:1
 	-> ae2:BlockController
 
 shapeless=
@@ -124,26 +124,20 @@ shaped=
 
 shaped=
 	ae2:BlockQuartzGlass cable ae2:BlockQuartzGlass,
-	oredictionary:dustFluix fluixCrystal oredictionary:dustFluix,
+	dustQuartz netherCrystal dustQuartz,
 	ae2:BlockQuartzGlass cable ae2:BlockQuartzGlass
 	-> ae2:BlockSpatialPylon
 
 shaped=
 	mc:iron_ingot ae2:BlockQuartzGlass mc:iron_ingot,
-	ae2:BlockQuartzGlass  fluixCrystal ae2:BlockQuartzGlass,
+	ae2:BlockQuartzGlass  netherCrystal ae2:BlockQuartzGlass,
 	mc:iron_ingot ae2:BlockQuartzGlass mc:iron_ingot
 	-> ae2:BlockEnergyAcceptor
 
 shaped=
-	mc:iron_ingot cable mc:iron_ingot,
-	ae2:BlockQuartzGlass  ae2:BlockFluix ae2:BlockQuartzGlass,
-	mc:iron_ingot cable mc:iron_ingot
-	-> ae2:BlockQuartzGrowthAccelerator
-
-shaped=
-	mc:iron_ingot fluixCrystal mc:iron_ingot,
-	mc:iron_ingot _ _,
-	mc:iron_ingot fluixCrystal mc:iron_ingot
+	mc:iron_ingot netherCrystal mc:iron_ingot,
+	mc:iron_ingot mc:redstone _,
+	mc:iron_ingot netherCrystal mc:iron_ingot
 	-> ae2:BlockCharger
 
 shapeless=
@@ -161,15 +155,15 @@ shaped=
 	-> ae2:ItemPart.ImportBus
 
 shaped=
-	mc:iron_ingot fluixCrystal,
-	ae2:ItemMaterial.AnnihilationCore fluixCrystal,
-	mc:iron_ingot fluixCrystal
+	mc:iron_ingot netherCrystal,
+	ae2:ItemMaterial.AnnihilationCore netherCrystal,
+	mc:iron_ingot netherCrystal
 	-> ae2:ItemPart.AnnihilationPlane
 
 shaped=
-	mc:iron_ingot fluixCrystal,
-	ae2:ItemMaterial.FormationCore fluixCrystal,
-	mc:iron_ingot fluixCrystal
+	mc:iron_ingot netherCrystal,
+	ae2:ItemMaterial.FormationCore netherCrystal,
+	mc:iron_ingot netherCrystal
 	-> ae2:ItemPart.FormationPlane
 
 shapeless=
@@ -222,7 +216,7 @@ shaped=
 	-> ae2:ToolWirelessTerminal
 
 shaped=
-	oredictionary:dustFluix certusCrystal dustEnder,
+	dustQuartz netherCrystal mc:redstone,
 	mc:iron_ingot mc:iron_ingot mc:iron_ingot,
 	-> 2 ae2:ItemMaterial.WirelessBooster
 
